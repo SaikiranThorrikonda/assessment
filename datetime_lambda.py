@@ -1,9 +1,6 @@
 import time
 import json
 import boto3
-
-def lambda_handler(event,context):
-    dynamodb = boto3.resource('dynamodb')
     
 #function definition
 def lambda_handler(event,context):
